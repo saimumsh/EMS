@@ -1,0 +1,186 @@
+﻿@using Azure.Core
+@using EMS.core
+@using EMS.core.Query
+@using EMS.web.ViewModel
+@using X.PagedList
+@using X.PagedList.Mvc
+@model EmployeeModel;
+
+<div class="container">
+    <h2 class="my-4">Employee List</h2>
+
+    <!-- Search Bar Row -->
+    <form method="get" action="@Url.Action("Index", "Employee")" class="mb-4">
+        <div class="row">
+            <div class="col-md-3">
+                <input type="text"  asp-for="SearchEmployee.SName" class="form-control" placeholder="Search by Name" />
+            </div>
+            <div class="col-md-3">
+                <input type="text"  asp-for="SearchEmployee.SEmail" class="form-control" placeholder="Search by Email" />
+            </div>
+            <div class="col-md-3">
+                <input type="datetime"  asp-for="SearchEmployee.SDOB" class="form-control" placeholder="Search by DateOfBirth" />
+            </div>
+            <div class="col-md-3">
+                <input type="text"  asp-for="SearchEmployee.SMobile" class="form-control" placeholder="Search by Mobile" />
+            </div>
+        </div>
+        <div class="row mt-2">
+            <div class="col-md-12 text-right">
+                <button type="submit" class="btn btn-primary">Search</button>
+                <a href="@Url.Action("Index", "Employee")" class="btn btn-secondary">Clear</a>
+            </div>
+        </div>
+    </form>
+
+    <!-- Employee Table -->
+    <table id="employeeTable" class="table table-bordered table-secondary">
+        <thead class="thead-dark">
+            <tr>
+                <th>Photo</th>
+                <th>Full Name</th>
+                <th>Email</th>
+                <th>Date of Birth</th>
+                <th>Mobile</th>
+                <th>Actions</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var employee in Model.Employees)
+            {
+                <tr>
+                    <td>
+                        <img src="@employee.Photo" alt="Employee Photo" style="width:50px; height:50px;" />
+                    </td>
+                    <td>@employee.FullName</td>
+                    <td>@employee.Email</td>
+                    <td>@employee.DOB.ToString("dd/MM/yyyy")</td>
+                    <td>@employee.Mobile</td>
+                    <td>
+                        <a href="@Url.Action("Update", "Employee", new { id = employee.Id })" class="btn btn-sm btn-primary">
+                            <i class="fa fa-pencil"></i>
+                        </a>
+                        <a onclick="confirmDelete('@employee.Id')" class="btn btn-sm btn-danger">
+                            <i class="fa fa-trash"></i>
+                        </a>
+                    </td>
+                </tr>
+            }
+        </tbody>
+    </table>
+  
+</div>
+@section Styles{
+    <style>
+        /* Custom styles for the DataTable */
+        #employeeTable {
+            width: 100%;
+            border-collapse: collapse;
+        }
+
+            #employeeTable th, #employeeTable td {
+                padding: 10px;
+                border: 1px solid #ddd;
+            }
+
+            #employeeTable thead {
+                background-color: #f4f4f4;
+            }
+
+            #employeeTable th {
+                text-align: left;
+            }
+
+        .dataTables_wrapper .dataTables_paginate .paginate_button {
+            padding: 0.5em 1em;
+            margin: 0.2em;
+            border: 1px solid #727573;
+            border-radius: 4px;
+            background: #727573;
+            color: white;
+            cursor: pointer;
+        }
+
+            .dataTables_wrapper .dataTables_paginate .paginate_button:hover {
+                background: #2c332f;
+            }
+
+        .dataTables_wrapper .dataTables_info {
+            padding: 0.5em;
+            font-size: 0.9em;
+        }
+
+        #employeeTable th.sorting::after,
+        #employeeTable th.sorting_asc::after,
+        #employeeTable th.sorting_desc::after {
+            content: "\f0dc"; 
+            font-family: "Font Awesome 5 Free";
+            font-weight: 900;
+            padding-left: 10px;
+            display: inline-block;
+            font-size: 16px;
+            color:darkseagreen;
+        }
+
+        #employeeTable th.sorting_asc::after {
+            content: "\f0de"; 
+        }
+        #employeeTable th.sorting_desc::after {
+            content: "\f0dd"; 
+        }
+    </style>
+}
+@section Scripts {
+    <script src="~/lib/datatables/js/datatables.bootstrap.js"></script>
+    <script src="~/lib/datatables/js/jquery.datatables.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <script>
+        $(document).ready(function () {
+            $('#employeeTable').DataTable({
+                paging: true,  
+                searching:false,
+                ordering: true,
+                info: true,
+                lengthChange: true,
+                pageLength: 10
+            });
+        });
+    </script>
+    <script>
+        function confirmDelete(itemId) {
+            Swal.fire({
+                title: 'Are you sure?',
+                text: "You won't be able to revert this!",
+                icon: 'warning',
+                showCancelButton: true,
+                confirmButtonColor: '#3085d6',
+                cancelButtonColor: '#d33',
+                confirmButtonText: 'Yes, delete it!'
+            }).then((result) => {
+                if (result.isConfirmed) {
+                    $.ajax({
+                        url: '@Url.Action("Delete", "Employee")',
+                        type: 'POST',
+                        data: { id: itemId },
+                        success: function (response) {
+                            Swal.fire(
+                                'Deleted!',
+                                'Your record has been deleted.',
+                                'success'
+                            ).then(() => {
+                                location.reload();
+                            });
+                        },
+                        error: function () {
+                            Swal.fire(
+                                'Error!',
+                                'There was a problem deleting the record.',
+                                'error'
+                            );
+                        }
+                    });
+                }
+            });
+        }
+    </script>
+}

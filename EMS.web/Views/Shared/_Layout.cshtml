@@ -1,0 +1,83 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>@ViewData["Title"] - EMS.web</title>
+    <link rel="stylesheet" href="~/lib/bootswatch/bootstrap.min 2.css" />
+    <link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
+    <link rel="stylesheet" href="~/css/Layout.css" asp-append-version="true" />
+    <link rel="stylesheet" href="~/EMS.web.styles.css" asp-append-version="true" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" />
+    @RenderSection("Styles", required: false)  
+</head>
+<body>
+    <!-- Toggle Button (placed outside sidebar) -->
+    <div class="mb-3">
+        <button class="btn btn-sm toggle-btn" type="button" id="sidebarToggle">
+            <i class="fa fa-bars"></i>
+        </button>
+
+    </div>
+  
+    <div>
+        <!-- Sidebar with smooth toggle -->
+        <nav id="sidebar" class="nav bg-info">
+            <ul class="nav flex-column p-3 mt-2">
+                <li class="nav-item">
+                    <a class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="Index">
+                        <i class="fa fa-home"></i> Home
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link text-dark" asp-controller="Employee" asp-action="Index">
+                        <i class="fa fa-users"></i> Employee
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link text-dark" asp-area="" asp-controller="Employee" asp-action="Create">
+                        <i class="fa fa-user-plus"></i> Add Employee
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link text-dark" asp-controller="Home" asp-action="Privacy">
+                        <i class="fa fa-user-secret"></i> Privacy
+                    </a>
+                </li>
+            </ul>
+        </nav>
+
+        <!-- Scrollable Content Area -->
+        <div id="content">
+            <main role="main" class="pb-3">
+                @RenderBody()
+            </main>
+
+            <!-- Footer -->
+            <footer class="border-top footer text-muted mt-auto">
+                <div class="container">
+                    &copy; 2024 - EMS.web - <a asp-area="" asp-controller="Home" asp-action="Privacy">Privacy</a>
+                </div>
+            </footer>
+        </div>
+    </div>
+
+    <!-- Scripts -->
+    <script src="~/lib/jquery/dist/jquery.min.js"></script>
+    <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="~/js/site.js" asp-append-version="true"></script>
+    @await RenderSectionAsync("Scripts", required: false)
+
+    <script>
+        // Toggle sidebar on button click
+        document.getElementById('sidebarToggle').addEventListener('click', function () {
+            const sidebar = document.getElementById('sidebar');
+            const content = document.getElementById('content');
+
+            // Toggle collapsed state for both sidebar and content
+            sidebar.classList.toggle('collapsed');
+            content.classList.toggle('collapsed');
+        });
+    </script>
+</body>
+</html>

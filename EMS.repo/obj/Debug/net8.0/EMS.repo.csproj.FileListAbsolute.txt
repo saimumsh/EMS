@@ -1,0 +1,34 @@
+E:\Project\.net Project\EMS\EMS.repo\bin\Debug\net8.0\EMS.repo.deps.json
+E:\Project\.net Project\EMS\EMS.repo\bin\Debug\net8.0\EMS.repo.runtimeconfig.json
+E:\Project\.net Project\EMS\EMS.repo\bin\Debug\net8.0\EMS.repo.dll
+E:\Project\.net Project\EMS\EMS.repo\bin\Debug\net8.0\EMS.repo.pdb
+E:\Project\.net Project\EMS\EMS.repo\bin\Debug\net8.0\EMS.core.dll
+E:\Project\.net Project\EMS\EMS.repo\bin\Debug\net8.0\EMS.core.pdb
+E:\Project\.net Project\EMS\EMS.repo\obj\Debug\net8.0\EMS.repo.csproj.AssemblyReference.cache
+E:\Project\.net Project\EMS\EMS.repo\obj\Debug\net8.0\EMS.repo.GeneratedMSBuildEditorConfig.editorconfig
+E:\Project\.net Project\EMS\EMS.repo\obj\Debug\net8.0\EMS.repo.AssemblyInfoInputs.cache
+E:\Project\.net Project\EMS\EMS.repo\obj\Debug\net8.0\EMS.repo.AssemblyInfo.cs
+E:\Project\.net Project\EMS\EMS.repo\obj\Debug\net8.0\EMS.repo.csproj.CoreCompileInputs.cache
+E:\Project\.net Project\EMS\EMS.repo\obj\Debug\net8.0\EMS.repo.csproj.Up2Date
+E:\Project\.net Project\EMS\EMS.repo\obj\Debug\net8.0\EMS.repo.dll
+E:\Project\.net Project\EMS\EMS.repo\obj\Debug\net8.0\refint\EMS.repo.dll
+E:\Project\.net Project\EMS\EMS.repo\obj\Debug\net8.0\EMS.repo.pdb
+E:\Project\.net Project\EMS\EMS.repo\obj\Debug\net8.0\EMS.repo.genruntimeconfig.cache
+E:\Project\.net Project\EMS\EMS.repo\obj\Debug\net8.0\ref\EMS.repo.dll
+D:\Demo Projects\.net Project\EMS\EMS.repo\bin\Debug\net8.0\EMS.repo.deps.json
+D:\Demo Projects\.net Project\EMS\EMS.repo\bin\Debug\net8.0\EMS.repo.runtimeconfig.json
+D:\Demo Projects\.net Project\EMS\EMS.repo\bin\Debug\net8.0\EMS.repo.dll
+D:\Demo Projects\.net Project\EMS\EMS.repo\bin\Debug\net8.0\EMS.repo.pdb
+D:\Demo Projects\.net Project\EMS\EMS.repo\bin\Debug\net8.0\EMS.core.dll
+D:\Demo Projects\.net Project\EMS\EMS.repo\bin\Debug\net8.0\EMS.core.pdb
+D:\Demo Projects\.net Project\EMS\EMS.repo\obj\Debug\net8.0\EMS.repo.csproj.AssemblyReference.cache
+D:\Demo Projects\.net Project\EMS\EMS.repo\obj\Debug\net8.0\EMS.repo.GeneratedMSBuildEditorConfig.editorconfig
+D:\Demo Projects\.net Project\EMS\EMS.repo\obj\Debug\net8.0\EMS.repo.AssemblyInfoInputs.cache
+D:\Demo Projects\.net Project\EMS\EMS.repo\obj\Debug\net8.0\EMS.repo.AssemblyInfo.cs
+D:\Demo Projects\.net Project\EMS\EMS.repo\obj\Debug\net8.0\EMS.repo.csproj.CoreCompileInputs.cache
+D:\Demo Projects\.net Project\EMS\EMS.repo\obj\Debug\net8.0\EMS.repo.csproj.CopyComplete
+D:\Demo Projects\.net Project\EMS\EMS.repo\obj\Debug\net8.0\EMS.repo.dll
+D:\Demo Projects\.net Project\EMS\EMS.repo\obj\Debug\net8.0\refint\EMS.repo.dll
+D:\Demo Projects\.net Project\EMS\EMS.repo\obj\Debug\net8.0\EMS.repo.pdb
+D:\Demo Projects\.net Project\EMS\EMS.repo\obj\Debug\net8.0\EMS.repo.genruntimeconfig.cache
+D:\Demo Projects\.net Project\EMS\EMS.repo\obj\Debug\net8.0\ref\EMS.repo.dll

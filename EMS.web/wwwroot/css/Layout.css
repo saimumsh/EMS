@@ -1,0 +1,70 @@
+﻿html, body {
+    height: 100%; /* Ensure body and html take full height of the viewport */
+    margin: 0; /* Remove default margin */
+    overflow: hidden; /* Prevent vertical scrolling */
+}
+
+#sidebar {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    width: 250px;
+    background-color: whitesmoke;
+    border-right: 1px solid #dee2e6;
+    padding-top: 20px;
+    transition: all 0.3s ease; /* Smooth transition for hide/show */
+    overflow-y: auto; /* Allow vertical scrolling inside sidebar if content exceeds viewport */
+}
+
+    #sidebar.collapsed {
+        width: 0;
+        overflow: hidden; /* Hide content when collapsed */
+    }
+
+    #sidebar .nav-item {
+        border-bottom: 1px solid #dee2e6;
+        margin-bottom: -1px;
+    }
+
+    #sidebar .nav-link {
+        transition: background-color 0.3s ease, color 0.3s ease;
+        padding: 10px 15px;
+        display: block;
+    }
+
+        #sidebar .nav-link:hover {
+            background-color: ButtonShadow;
+            color: #ffffff;
+        }
+
+        #sidebar .nav-link.active {
+            background-color: ButtonShadow;
+            color: #ffffff;
+        }
+
+#content {
+    margin-left: 250px; /* Adjust according to the width of the sidebar */
+    padding: 20px;
+    height: calc(100vh - 40px); /* Adjust height to fit the viewport */
+    overflow-y: auto; /* Allow vertical scrolling inside content if needed */
+    transition: margin-left 0.3s ease; /* Smooth content shift */
+}
+
+    #content.collapsed {
+        margin-left: 0;
+    }
+
+footer {
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+
+.toggle-btn {
+    position: fixed;
+    top: 10px;
+    left: 20px; /* Adjust as needed */
+    z-index: 1000;
+    transition: left 0.3s ease; /* Smooth transition for button position */
+}

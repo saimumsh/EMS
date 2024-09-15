@@ -1,0 +1,34 @@
+E:\Project\.net Project\EMS\EMS.service\bin\Debug\net8.0\EMS.service.deps.json
+E:\Project\.net Project\EMS\EMS.service\bin\Debug\net8.0\EMS.service.dll
+E:\Project\.net Project\EMS\EMS.service\bin\Debug\net8.0\EMS.service.pdb
+E:\Project\.net Project\EMS\EMS.service\bin\Debug\net8.0\EMS.core.dll
+E:\Project\.net Project\EMS\EMS.service\bin\Debug\net8.0\EMS.repo.dll
+E:\Project\.net Project\EMS\EMS.service\bin\Debug\net8.0\EMS.repo.pdb
+E:\Project\.net Project\EMS\EMS.service\bin\Debug\net8.0\EMS.core.pdb
+E:\Project\.net Project\EMS\EMS.service\obj\Debug\net8.0\EMS.service.csproj.AssemblyReference.cache
+E:\Project\.net Project\EMS\EMS.service\obj\Debug\net8.0\EMS.service.GeneratedMSBuildEditorConfig.editorconfig
+E:\Project\.net Project\EMS\EMS.service\obj\Debug\net8.0\EMS.service.AssemblyInfoInputs.cache
+E:\Project\.net Project\EMS\EMS.service\obj\Debug\net8.0\EMS.service.AssemblyInfo.cs
+E:\Project\.net Project\EMS\EMS.service\obj\Debug\net8.0\EMS.service.csproj.CoreCompileInputs.cache
+E:\Project\.net Project\EMS\EMS.service\obj\Debug\net8.0\EMS.serv.DBFC7B04.Up2Date
+E:\Project\.net Project\EMS\EMS.service\obj\Debug\net8.0\EMS.service.dll
+E:\Project\.net Project\EMS\EMS.service\obj\Debug\net8.0\refint\EMS.service.dll
+E:\Project\.net Project\EMS\EMS.service\obj\Debug\net8.0\EMS.service.pdb
+E:\Project\.net Project\EMS\EMS.service\obj\Debug\net8.0\ref\EMS.service.dll
+D:\Demo Projects\.net Project\EMS\EMS.service\bin\Debug\net8.0\EMS.service.deps.json
+D:\Demo Projects\.net Project\EMS\EMS.service\bin\Debug\net8.0\EMS.service.dll
+D:\Demo Projects\.net Project\EMS\EMS.service\bin\Debug\net8.0\EMS.service.pdb
+D:\Demo Projects\.net Project\EMS\EMS.service\bin\Debug\net8.0\EMS.core.dll
+D:\Demo Projects\.net Project\EMS\EMS.service\bin\Debug\net8.0\EMS.repo.dll
+D:\Demo Projects\.net Project\EMS\EMS.service\bin\Debug\net8.0\EMS.repo.pdb
+D:\Demo Projects\.net Project\EMS\EMS.service\bin\Debug\net8.0\EMS.core.pdb
+D:\Demo Projects\.net Project\EMS\EMS.service\obj\Debug\net8.0\EMS.service.csproj.AssemblyReference.cache
+D:\Demo Projects\.net Project\EMS\EMS.service\obj\Debug\net8.0\EMS.service.GeneratedMSBuildEditorConfig.editorconfig
+D:\Demo Projects\.net Project\EMS\EMS.service\obj\Debug\net8.0\EMS.service.AssemblyInfoInputs.cache
+D:\Demo Projects\.net Project\EMS\EMS.service\obj\Debug\net8.0\EMS.service.AssemblyInfo.cs
+D:\Demo Projects\.net Project\EMS\EMS.service\obj\Debug\net8.0\EMS.service.csproj.CoreCompileInputs.cache
+D:\Demo Projects\.net Project\EMS\EMS.service\obj\Debug\net8.0\EMS.service.csproj.CopyComplete
+D:\Demo Projects\.net Project\EMS\EMS.service\obj\Debug\net8.0\EMS.service.dll
+D:\Demo Projects\.net Project\EMS\EMS.service\obj\Debug\net8.0\refint\EMS.service.dll
+D:\Demo Projects\.net Project\EMS\EMS.service\obj\Debug\net8.0\EMS.service.pdb
+D:\Demo Projects\.net Project\EMS\EMS.service\obj\Debug\net8.0\ref\EMS.service.dll

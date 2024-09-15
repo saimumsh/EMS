@@ -1,0 +1,28 @@
+E:\Project\.net Project\EMS\EMS.core\bin\Debug\net8.0\EMS.core.deps.json
+E:\Project\.net Project\EMS\EMS.core\bin\Debug\net8.0\EMS.core.runtimeconfig.json
+E:\Project\.net Project\EMS\EMS.core\bin\Debug\net8.0\EMS.core.dll
+E:\Project\.net Project\EMS\EMS.core\bin\Debug\net8.0\EMS.core.pdb
+E:\Project\.net Project\EMS\EMS.core\obj\Debug\net8.0\EMS.core.csproj.AssemblyReference.cache
+E:\Project\.net Project\EMS\EMS.core\obj\Debug\net8.0\EMS.core.GeneratedMSBuildEditorConfig.editorconfig
+E:\Project\.net Project\EMS\EMS.core\obj\Debug\net8.0\EMS.core.AssemblyInfoInputs.cache
+E:\Project\.net Project\EMS\EMS.core\obj\Debug\net8.0\EMS.core.AssemblyInfo.cs
+E:\Project\.net Project\EMS\EMS.core\obj\Debug\net8.0\EMS.core.csproj.CoreCompileInputs.cache
+E:\Project\.net Project\EMS\EMS.core\obj\Debug\net8.0\EMS.core.dll
+E:\Project\.net Project\EMS\EMS.core\obj\Debug\net8.0\refint\EMS.core.dll
+E:\Project\.net Project\EMS\EMS.core\obj\Debug\net8.0\EMS.core.pdb
+E:\Project\.net Project\EMS\EMS.core\obj\Debug\net8.0\EMS.core.genruntimeconfig.cache
+E:\Project\.net Project\EMS\EMS.core\obj\Debug\net8.0\ref\EMS.core.dll
+D:\Demo Projects\.net Project\EMS\EMS.core\bin\Debug\net8.0\EMS.core.deps.json
+D:\Demo Projects\.net Project\EMS\EMS.core\bin\Debug\net8.0\EMS.core.runtimeconfig.json
+D:\Demo Projects\.net Project\EMS\EMS.core\bin\Debug\net8.0\EMS.core.dll
+D:\Demo Projects\.net Project\EMS\EMS.core\bin\Debug\net8.0\EMS.core.pdb
+D:\Demo Projects\.net Project\EMS\EMS.core\obj\Debug\net8.0\EMS.core.csproj.AssemblyReference.cache
+D:\Demo Projects\.net Project\EMS\EMS.core\obj\Debug\net8.0\EMS.core.GeneratedMSBuildEditorConfig.editorconfig
+D:\Demo Projects\.net Project\EMS\EMS.core\obj\Debug\net8.0\EMS.core.AssemblyInfoInputs.cache
+D:\Demo Projects\.net Project\EMS\EMS.core\obj\Debug\net8.0\EMS.core.AssemblyInfo.cs
+D:\Demo Projects\.net Project\EMS\EMS.core\obj\Debug\net8.0\EMS.core.csproj.CoreCompileInputs.cache
+D:\Demo Projects\.net Project\EMS\EMS.core\obj\Debug\net8.0\EMS.core.dll
+D:\Demo Projects\.net Project\EMS\EMS.core\obj\Debug\net8.0\refint\EMS.core.dll
+D:\Demo Projects\.net Project\EMS\EMS.core\obj\Debug\net8.0\EMS.core.pdb
+D:\Demo Projects\.net Project\EMS\EMS.core\obj\Debug\net8.0\EMS.core.genruntimeconfig.cache
+D:\Demo Projects\.net Project\EMS\EMS.core\obj\Debug\net8.0\ref\EMS.core.dll
