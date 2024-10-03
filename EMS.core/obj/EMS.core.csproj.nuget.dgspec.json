@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Demo Projects\\.net Project\\EMS\\EMS.core\\EMS.core.csproj": {}
+    "D:\\ASP.NET PROJECTS\\EMS\\EMS.core\\EMS.core.csproj": {}
   },
   "projects": {
-    "D:\\Demo Projects\\.net Project\\EMS\\EMS.core\\EMS.core.csproj": {
+    "D:\\ASP.NET PROJECTS\\EMS\\EMS.core\\EMS.core.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Demo Projects\\.net Project\\EMS\\EMS.core\\EMS.core.csproj",
+        "projectUniqueName": "D:\\ASP.NET PROJECTS\\EMS\\EMS.core\\EMS.core.csproj",
         "projectName": "EMS.core",
-        "projectPath": "D:\\Demo Projects\\.net Project\\EMS\\EMS.core\\EMS.core.csproj",
+        "projectPath": "D:\\ASP.NET PROJECTS\\EMS\\EMS.core\\EMS.core.csproj",
         "packagesPath": "C:\\Users\\Md. Shahadat Hossain\\.nuget\\packages\\",
-        "outputPath": "D:\\Demo Projects\\.net Project\\EMS\\EMS.core\\obj\\",
+        "outputPath": "D:\\ASP.NET PROJECTS\\EMS\\EMS.core\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Md. Shahadat Hossain\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -57,6 +57,10 @@
               "suppressParent": "All",
               "target": "Package",
               "version": "[8.0.8, )"
+            },
+            "QuestPDF": {
+              "target": "Package",
+              "version": "[2024.7.3, )"
             }
           },
           "imports": [

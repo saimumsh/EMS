@@ -1,8 +1,50 @@
 ﻿@{
     ViewData["Title"] = "Home Page";
 }
+  
+<button id="showPdfButton" class="btn btn-primary mb-4">Show PDF</button>
 
+<!-- Iframe to display the PDF, initially hidden -->
+<iframe id="pdfFrame" src="" width="100%" height="600px">
+    Your browser does not support inline PDF viewing. You can download the file below.
+</iframe>
 <div class="text-center">
     <h1 class="display-4">Welcome</h1>
     <p>Learn about <a href="https://learn.microsoft.com/aspnet/core">building Web apps with ASP.NET Core</a>.</p>
 </div>
+
+
+
+
+
+@section Styles{
+    <style>
+        /* Initially hide the iframe */
+        #pdfFrame {
+            display: none;
+        }
+    </style>
+}
+@section Scripts{
+    <script>
+        $(document).ready(function () {
+            // Button click event using jQuery
+            $('#showPdfButton').on('click', function () {
+                console.log($('#showPdfButton').text());
+                var pdfUrl = '@Url.Action("CreateDocument", "Pdf")';  // PDF URL (from your ASP.NET action)
+                    // Set the iframe src to the PDF URL
+                if ($('#showPdfButton').text() === "Show Pdf") {
+                    $('#pdfFrame').attr('src', pdfUrl);
+                    // Show the iframe
+                    $('#pdfFrame').show();
+                    $('#showPdfButton').text("Close Pdf");
+                } else {
+                    $('#pdfFrame').hide();
+                    $('#showPdfButton').text("Show Pdf");
+                }
+               
+            });
+        });
+    </script>
+}
+

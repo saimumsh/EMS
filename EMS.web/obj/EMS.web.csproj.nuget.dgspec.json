@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Demo Projects\\.net Project\\EMS\\EMS.web\\EMS.web.csproj": {}
+    "D:\\ASP.NET PROJECTS\\EMS\\EMS.web\\EMS.web.csproj": {}
   },
   "projects": {
-    "D:\\Demo Projects\\.net Project\\EMS\\EMS.core\\EMS.core.csproj": {
+    "D:\\ASP.NET PROJECTS\\EMS\\EMS.core\\EMS.core.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Demo Projects\\.net Project\\EMS\\EMS.core\\EMS.core.csproj",
+        "projectUniqueName": "D:\\ASP.NET PROJECTS\\EMS\\EMS.core\\EMS.core.csproj",
         "projectName": "EMS.core",
-        "projectPath": "D:\\Demo Projects\\.net Project\\EMS\\EMS.core\\EMS.core.csproj",
+        "projectPath": "D:\\ASP.NET PROJECTS\\EMS\\EMS.core\\EMS.core.csproj",
         "packagesPath": "C:\\Users\\Md. Shahadat Hossain\\.nuget\\packages\\",
-        "outputPath": "D:\\Demo Projects\\.net Project\\EMS\\EMS.core\\obj\\",
+        "outputPath": "D:\\ASP.NET PROJECTS\\EMS\\EMS.core\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Md. Shahadat Hossain\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -57,6 +57,10 @@
               "suppressParent": "All",
               "target": "Package",
               "version": "[8.0.8, )"
+            },
+            "QuestPDF": {
+              "target": "Package",
+              "version": "[2024.7.3, )"
             }
           },
           "imports": [
@@ -79,14 +83,14 @@
         }
       }
     },
-    "D:\\Demo Projects\\.net Project\\EMS\\EMS.repo\\EMS.repo.csproj": {
+    "D:\\ASP.NET PROJECTS\\EMS\\EMS.repo\\EMS.repo.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Demo Projects\\.net Project\\EMS\\EMS.repo\\EMS.repo.csproj",
+        "projectUniqueName": "D:\\ASP.NET PROJECTS\\EMS\\EMS.repo\\EMS.repo.csproj",
         "projectName": "EMS.repo",
-        "projectPath": "D:\\Demo Projects\\.net Project\\EMS\\EMS.repo\\EMS.repo.csproj",
+        "projectPath": "D:\\ASP.NET PROJECTS\\EMS\\EMS.repo\\EMS.repo.csproj",
         "packagesPath": "C:\\Users\\Md. Shahadat Hossain\\.nuget\\packages\\",
-        "outputPath": "D:\\Demo Projects\\.net Project\\EMS\\EMS.repo\\obj\\",
+        "outputPath": "D:\\ASP.NET PROJECTS\\EMS\\EMS.repo\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Md. Shahadat Hossain\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -103,8 +107,8 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "D:\\Demo Projects\\.net Project\\EMS\\EMS.core\\EMS.core.csproj": {
-                "projectPath": "D:\\Demo Projects\\.net Project\\EMS\\EMS.core\\EMS.core.csproj"
+              "D:\\ASP.NET PROJECTS\\EMS\\EMS.core\\EMS.core.csproj": {
+                "projectPath": "D:\\ASP.NET PROJECTS\\EMS\\EMS.core\\EMS.core.csproj"
               }
             }
           }
@@ -133,74 +137,9 @@
               "target": "Package",
               "version": "[8.0.8, )"
             },
-            "X.PagedList": {
+            "QuestPDF": {
               "target": "Package",
-              "version": "[10.0.3, )"
-            }
-          },
-          "imports": [
-            "net461",
-            "net462",
-            "net47",
-            "net471",
-            "net472",
-            "net48",
-            "net481"
-          ],
-          "assetTargetFallback": true,
-          "warn": true,
-          "frameworkReferences": {
-            "Microsoft.NETCore.App": {
-              "privateAssets": "all"
-            }
-          },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.100/PortableRuntimeIdentifierGraph.json"
-        }
-      }
-    },
-    "D:\\Demo Projects\\.net Project\\EMS\\EMS.service\\EMS.service.csproj": {
-      "version": "1.0.0",
-      "restore": {
-        "projectUniqueName": "D:\\Demo Projects\\.net Project\\EMS\\EMS.service\\EMS.service.csproj",
-        "projectName": "EMS.service",
-        "projectPath": "D:\\Demo Projects\\.net Project\\EMS\\EMS.service\\EMS.service.csproj",
-        "packagesPath": "C:\\Users\\Md. Shahadat Hossain\\.nuget\\packages\\",
-        "outputPath": "D:\\Demo Projects\\.net Project\\EMS\\EMS.service\\obj\\",
-        "projectStyle": "PackageReference",
-        "configFilePaths": [
-          "C:\\Users\\Md. Shahadat Hossain\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
-        ],
-        "originalTargetFrameworks": [
-          "net8.0"
-        ],
-        "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "https://api.nuget.org/v3/index.json": {}
-        },
-        "frameworks": {
-          "net8.0": {
-            "targetAlias": "net8.0",
-            "projectReferences": {
-              "D:\\Demo Projects\\.net Project\\EMS\\EMS.repo\\EMS.repo.csproj": {
-                "projectPath": "D:\\Demo Projects\\.net Project\\EMS\\EMS.repo\\EMS.repo.csproj"
-              }
-            }
-          }
-        },
-        "warningProperties": {
-          "warnAsError": [
-            "NU1605"
-          ]
-        }
-      },
-      "frameworks": {
-        "net8.0": {
-          "targetAlias": "net8.0",
-          "dependencies": {
-            "Microsoft.EntityFrameworkCore.SqlServer": {
-              "target": "Package",
-              "version": "[8.0.8, )"
+              "version": "[2024.7.3, )"
             },
             "X.PagedList": {
               "target": "Package",
@@ -227,14 +166,14 @@
         }
       }
     },
-    "D:\\Demo Projects\\.net Project\\EMS\\EMS.web\\EMS.web.csproj": {
+    "D:\\ASP.NET PROJECTS\\EMS\\EMS.service\\EMS.service.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Demo Projects\\.net Project\\EMS\\EMS.web\\EMS.web.csproj",
-        "projectName": "EMS.web",
-        "projectPath": "D:\\Demo Projects\\.net Project\\EMS\\EMS.web\\EMS.web.csproj",
+        "projectUniqueName": "D:\\ASP.NET PROJECTS\\EMS\\EMS.service\\EMS.service.csproj",
+        "projectName": "EMS.service",
+        "projectPath": "D:\\ASP.NET PROJECTS\\EMS\\EMS.service\\EMS.service.csproj",
         "packagesPath": "C:\\Users\\Md. Shahadat Hossain\\.nuget\\packages\\",
-        "outputPath": "D:\\Demo Projects\\.net Project\\EMS\\EMS.web\\obj\\",
+        "outputPath": "D:\\ASP.NET PROJECTS\\EMS\\EMS.service\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Md. Shahadat Hossain\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -251,8 +190,81 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "D:\\Demo Projects\\.net Project\\EMS\\EMS.service\\EMS.service.csproj": {
-                "projectPath": "D:\\Demo Projects\\.net Project\\EMS\\EMS.service\\EMS.service.csproj"
+              "D:\\ASP.NET PROJECTS\\EMS\\EMS.repo\\EMS.repo.csproj": {
+                "projectPath": "D:\\ASP.NET PROJECTS\\EMS\\EMS.repo\\EMS.repo.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[8.0.8, )"
+            },
+            "QuestPDF": {
+              "target": "Package",
+              "version": "[2024.7.3, )"
+            },
+            "X.PagedList": {
+              "target": "Package",
+              "version": "[10.0.3, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.100/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\ASP.NET PROJECTS\\EMS\\EMS.web\\EMS.web.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\ASP.NET PROJECTS\\EMS\\EMS.web\\EMS.web.csproj",
+        "projectName": "EMS.web",
+        "projectPath": "D:\\ASP.NET PROJECTS\\EMS\\EMS.web\\EMS.web.csproj",
+        "packagesPath": "C:\\Users\\Md. Shahadat Hossain\\.nuget\\packages\\",
+        "outputPath": "D:\\ASP.NET PROJECTS\\EMS\\EMS.web\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Md. Shahadat Hossain\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "D:\\ASP.NET PROJECTS\\EMS\\EMS.service\\EMS.service.csproj": {
+                "projectPath": "D:\\ASP.NET PROJECTS\\EMS\\EMS.service\\EMS.service.csproj"
               }
             }
           }
@@ -276,6 +288,10 @@
             "Microsoft.EntityFrameworkCore.SqlServer": {
               "target": "Package",
               "version": "[8.0.8, )"
+            },
+            "QuestPDF": {
+              "target": "Package",
+              "version": "[2024.7.3, )"
             },
             "X.PagedList": {
               "target": "Package",
