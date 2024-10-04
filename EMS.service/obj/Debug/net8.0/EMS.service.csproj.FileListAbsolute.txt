@@ -32,3 +32,40 @@ D:\Demo Projects\.net Project\EMS\EMS.service\obj\Debug\net8.0\EMS.service.dll
 D:\Demo Projects\.net Project\EMS\EMS.service\obj\Debug\net8.0\refint\EMS.service.dll
 D:\Demo Projects\.net Project\EMS\EMS.service\obj\Debug\net8.0\EMS.service.pdb
 D:\Demo Projects\.net Project\EMS\EMS.service\obj\Debug\net8.0\ref\EMS.service.dll
+D:\ASP.NET PROJECTS\EMS\EMS.service\bin\Debug\net8.0\LatoFont\Lato-Black.ttf
+D:\ASP.NET PROJECTS\EMS\EMS.service\bin\Debug\net8.0\LatoFont\Lato-BlackItalic.ttf
+D:\ASP.NET PROJECTS\EMS\EMS.service\bin\Debug\net8.0\LatoFont\Lato-Bold.ttf
+D:\ASP.NET PROJECTS\EMS\EMS.service\bin\Debug\net8.0\LatoFont\Lato-BoldItalic.ttf
+D:\ASP.NET PROJECTS\EMS\EMS.service\bin\Debug\net8.0\LatoFont\Lato-ExtraBold.ttf
+D:\ASP.NET PROJECTS\EMS\EMS.service\bin\Debug\net8.0\LatoFont\Lato-ExtraBoldItalic.ttf
+D:\ASP.NET PROJECTS\EMS\EMS.service\bin\Debug\net8.0\LatoFont\Lato-ExtraLight.ttf
+D:\ASP.NET PROJECTS\EMS\EMS.service\bin\Debug\net8.0\LatoFont\Lato-ExtraLightItalic.ttf
+D:\ASP.NET PROJECTS\EMS\EMS.service\bin\Debug\net8.0\LatoFont\Lato-Italic.ttf
+D:\ASP.NET PROJECTS\EMS\EMS.service\bin\Debug\net8.0\LatoFont\Lato-Light.ttf
+D:\ASP.NET PROJECTS\EMS\EMS.service\bin\Debug\net8.0\LatoFont\Lato-LightItalic.ttf
+D:\ASP.NET PROJECTS\EMS\EMS.service\bin\Debug\net8.0\LatoFont\Lato-Medium.ttf
+D:\ASP.NET PROJECTS\EMS\EMS.service\bin\Debug\net8.0\LatoFont\Lato-MediumItalic.ttf
+D:\ASP.NET PROJECTS\EMS\EMS.service\bin\Debug\net8.0\LatoFont\Lato-Regular.ttf
+D:\ASP.NET PROJECTS\EMS\EMS.service\bin\Debug\net8.0\LatoFont\Lato-SemiBold.ttf
+D:\ASP.NET PROJECTS\EMS\EMS.service\bin\Debug\net8.0\LatoFont\Lato-SemiBoldItalic.ttf
+D:\ASP.NET PROJECTS\EMS\EMS.service\bin\Debug\net8.0\LatoFont\Lato-Thin.ttf
+D:\ASP.NET PROJECTS\EMS\EMS.service\bin\Debug\net8.0\LatoFont\Lato-ThinItalic.ttf
+D:\ASP.NET PROJECTS\EMS\EMS.service\bin\Debug\net8.0\LatoFont\OFL.txt
+D:\ASP.NET PROJECTS\EMS\EMS.service\bin\Debug\net8.0\EMS.service.deps.json
+D:\ASP.NET PROJECTS\EMS\EMS.service\bin\Debug\net8.0\EMS.service.dll
+D:\ASP.NET PROJECTS\EMS\EMS.service\bin\Debug\net8.0\EMS.service.pdb
+D:\ASP.NET PROJECTS\EMS\EMS.service\bin\Debug\net8.0\EMS.core.dll
+D:\ASP.NET PROJECTS\EMS\EMS.service\bin\Debug\net8.0\EMS.repo.dll
+D:\ASP.NET PROJECTS\EMS\EMS.service\bin\Debug\net8.0\EMS.repo.pdb
+D:\ASP.NET PROJECTS\EMS\EMS.service\bin\Debug\net8.0\EMS.core.pdb
+D:\ASP.NET PROJECTS\EMS\EMS.service\obj\Debug\net8.0\EMS.service.csproj.AssemblyReference.cache
+D:\ASP.NET PROJECTS\EMS\EMS.service\obj\Debug\net8.0\EMS.service.GeneratedMSBuildEditorConfig.editorconfig
+D:\ASP.NET PROJECTS\EMS\EMS.service\obj\Debug\net8.0\EMS.service.AssemblyInfoInputs.cache
+D:\ASP.NET PROJECTS\EMS\EMS.service\obj\Debug\net8.0\EMS.service.AssemblyInfo.cs
+D:\ASP.NET PROJECTS\EMS\EMS.service\obj\Debug\net8.0\EMS.service.csproj.CoreCompileInputs.cache
+D:\ASP.NET PROJECTS\EMS\EMS.service\obj\Debug\net8.0\EMS.service.sourcelink.json
+D:\ASP.NET PROJECTS\EMS\EMS.service\obj\Debug\net8.0\EMS.service.csproj.CopyComplete
+D:\ASP.NET PROJECTS\EMS\EMS.service\obj\Debug\net8.0\EMS.service.dll
+D:\ASP.NET PROJECTS\EMS\EMS.service\obj\Debug\net8.0\refint\EMS.service.dll
+D:\ASP.NET PROJECTS\EMS\EMS.service\obj\Debug\net8.0\EMS.service.pdb
+D:\ASP.NET PROJECTS\EMS\EMS.service\obj\Debug\net8.0\ref\EMS.service.dll

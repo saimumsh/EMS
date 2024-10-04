@@ -33,14 +33,14 @@
                 console.log($('#showPdfButton').text());
                 var pdfUrl = '@Url.Action("CreateDocument", "Pdf")';  // PDF URL (from your ASP.NET action)
                     // Set the iframe src to the PDF URL
-                if ($('#showPdfButton').text() === "Show Pdf") {
+                if ($('#showPdfButton').text() === "Show PDF") {
                     $('#pdfFrame').attr('src', pdfUrl);
                     // Show the iframe
                     $('#pdfFrame').show();
-                    $('#showPdfButton').text("Close Pdf");
+                    $('#showPdfButton').text("Close PDF");
                 } else {
                     $('#pdfFrame').hide();
-                    $('#showPdfButton').text("Show Pdf");
+                    $('#showPdfButton').text("Show PDF");
                 }
                
             });
