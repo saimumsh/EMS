@@ -1,3 +1,5 @@
+using DinkToPdf.Contracts;
+using DinkToPdf;
 using EMS.repo;
 using EMS.repo.Repository;
 using EMS.service.Service;
@@ -16,6 +18,9 @@ builder.Services.AddDbContext<ApplicationDbContext>(Options =>
 builder.Services.AddScoped(typeof(IRepository<>), typeof(Repository<>));
 builder.Services.AddScoped(typeof(IEmployeeRepository), typeof(EmployeeRepository));
 builder.Services.AddScoped(typeof(IEmployeeService), typeof(EmployeeService));
+
+builder.Services.AddSingleton(typeof(IConverter), new SynchronizedConverter(new PdfTools()));
+
 
 var app = builder.Build();
 

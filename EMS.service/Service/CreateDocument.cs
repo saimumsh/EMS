@@ -168,7 +168,7 @@ namespace EMS.service.Service
                     column.Item().Text(Text =>
                     {
                         Text.Justify();
-                        Text.Span("Lorem ipsum dolor sit amet, consectetur adipiscing elit," +
+                        Text.Span("Lorem ipsum dolor sit amet</b>, consectetur adipiscing elit," +
                             " sed do eiusmod tempor incididunt ut labore et dolore magna aliqused" +
                             " do eiusmod tempor incididunt ut labore et dolore magna aliqused do eiusmod " +
                             "tempor incididunt ut labore et dolore magna aliqused do eiusmod tempor incididunt" +
